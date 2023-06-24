@@ -2,13 +2,11 @@
 This example demonstrates how to run the Yolov5 inference.
 
 1. Clone this repository to the desired location on you computer.
-    >> git clone 
+    >> git clone
 
-2. Build and run the example using:  
+2. Build and run the example using:
 
-    >> cd rusty/yolo/examples/simple_inference
-
-    >> cargo run 
+    >> cargo run --example simple_inference
 
 3. This will perform inference on the image defined in line 15 of [main.rs](main.rs), using the Yolo torchscrpt file defined  in line 7.
 
